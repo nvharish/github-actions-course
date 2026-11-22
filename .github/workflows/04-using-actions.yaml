@@ -4,9 +4,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        run: cd 04-using-actions
       - name: Show Current Working Directory
         run: pwd
+      - name: Checkout Code
+        run: cd 04-using-actions
       - name: Printing Folders
         run: tree
