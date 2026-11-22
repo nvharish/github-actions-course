@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: Show Current Working Directory
         run: pwd
+      - name: List Directories
+        run: ls
       - name: Checkout Code
         run: cd 04-using-actions
       - name: Printing Folders
